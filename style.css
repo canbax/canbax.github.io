@@ -19,3 +19,16 @@
 .icon {
   height: 50px;
 }
+
+.slide-img {
+  margin: 0 auto;
+  height: 600px;
+}
+
+.carousel-txt {
+  background-color: rgba(119, 119, 119, 0.5);
+}
+
+.carousel-inner {
+  background-color: rgba(119, 119, 119, 0.1);
+}
