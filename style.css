@@ -39,3 +39,8 @@
 .cont {
   overflow-x: hidden;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
