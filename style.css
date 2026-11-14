@@ -1057,29 +1057,6 @@ h2.title {
   object-fit: contain;
 }
 
-.proj .thumb.placeholder.sudoku {
-  background: radial-gradient(circle at 70% 30%, rgba(141, 204, 147, 0.3), transparent 60%), #0d1418;
-}
-
-.sudoku-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 26px);
-  gap: 3px;
-  font-size: 14px;
-}
-
-.sudoku-grid span {
-  width: 26px;
-  height: 26px;
-  display: grid;
-  place-items: center;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--c-tech);
-}
-
-.sudoku-grid span:nth-child(odd) { color: var(--text); }
-
 .proj .body {
   padding: 20px 20px 8px;
   flex: 1;
